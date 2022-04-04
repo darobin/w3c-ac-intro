@@ -1,67 +1,110 @@
 <!DOCTYPE html>
 
 <html lang="en-uk" xmlns="http://www.w3.org/1999/xhtml">
- <head>
-  <meta charset="UTF-8" />
-  <meta content="width=device-width" name="viewport" />
-  <title>The Web Is Not An SDK</title>
-  <link rel="stylesheet" href="AC-2022-slides.css" />
-  <script src="b6plus.js"></script>
-  <!-- To use the Shower framework, remove b6plus above and add these two: -->
-  <!--   <script src="shower.js"></script>         -->
-  <!--   <script src="iframe-fixup.js"></script>   -->
-  <style>
-    .slide blockquote {
-      font-size: 1.2rem;
-      font-family: serif;
-      font-style: italic;
-      padding-left: 1rem;
-      margin-top: 2rem;
-    }
-    .slide blockquote::before {
-      content: "❝";
-      font-size: 4rem;
-      opacity: 0.2;
-      position: absolute;
-      line-height: 1;
-      margin: -1rem 0 0 -2.5rem;
-    }
-    .slide blockquote > p.rb-src {
-      margin-top: -0.6em;
-      text-align: right;
-    }
-  </style>
- </head>
- <body class="shower fade-in">
-
-  <div class="progress">
-   <!-- Remove this element if you don't want a progress bar -->
-  </div>
-
-  <div role="region" aria-live="assertive">
-    <!-- What a screen reader should say on leaving slide mode,
-	 instead of the default ‘Stopped.’ -->
-    Leaving presentation mode.
-  </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width" name="viewport" />
+    <title>The Web Is Not An SDK</title>
+    <link rel="stylesheet" href="AC-2022-slides.css" />
+    <script src="b6plus.js"></script>
+    <style>
+      .slide blockquote {
+        font-size: 1.2rem;
+        font-family: serif;
+        font-style: italic;
+        padding-left: 1rem;
+        margin-top: 2rem;
+      }
+      .slide blockquote::before {
+        content: "❝";
+        font-size: 4rem;
+        opacity: 0.2;
+        position: absolute;
+        line-height: 1;
+        margin: -1rem 0 0 -2.5rem;
+      }
+      .slide blockquote > p.rb-src {
+        margin-top: -0.6em;
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body class="shower fade-in">
+  <div class="progress"></div>
+  <div role="region" aria-live="assertive">Leaving presentation mode.</div>
 
   <section class="slide cover clear" id="start">
-   <h1>The Web<br/> Is Not An SDK</h1>
-   <address>Robin Berjon,<br/> The New York Times</address>
+    <h1>The Web<br/> Is Not An SDK</h1>
+    <address>Robin Berjon,<br/> The New York Times</address>
+  </section>
+  <section class="slide" id="web">
+    <h3>One way to look at the Web is as…</h3>
+    <ul>
+      <li>digital infrastructure</li>
+      <li>for human knowledge and interactions,</li>
+      <li>designed &amp; governed to benefit people and</li>
+      <li>to protect them against excessive concentration of power.</li>
+    </ul>
+    <p>
+      That's a mouthful!
+    </p>
+  </section>
+  <section class="slide" id="values">
+    <h2>The Web is Opinionated</h2>
+    <h3>It is designed with values</h3>
+    <ul>
+      <li>
+        W3C has a <a href="https://www.w3.org/Consortium/mission">mission</a>, including notably
+        that the Web is For All and is human-centred.
+      </li>
+      <li>
+        The Technical Architecture Group (TAG) has documented our
+        <a href="https://www.w3.org/2001/tag/doc/ethical-web-principles/">ethical principles</a>.
+      </li>
+      <li>
+        We follow <a href="https://www.w3.org/TR/design-principles/">Web Design Principles</a>, most
+        famously that
+        <a href="https://www.w3.org/TR/design-principles/#priority-of-constituencies">people come
+        first</a>.
+      </li>
+    </ul>
   </section>
   <section class="slide rb-quote-slide" id="neutrality">
-   <h2>Neutrality</h2>
-   <blockquote>
-     <p>
-       If you are neutral in situations of injustice, you have chosen the side of the oppressor. If
-       an elephant has its foot on the tail of a mouse, and you say that you are neutral, the mouse
-       will not appreciate your neutrality.
-     </p>
-     <p class="rb-src">– Desmond Tutu</p>
-   </blockquote>
+    <h2>Neutrality?</h2>
+    <h3>No technology is morally neutral</h3>
+    <blockquote>
+      <p>
+        If you are neutral in situations of injustice, you have chosen the side of the oppressor. If
+        an elephant has its foot on the tail of a mouse, and you say that you are neutral, the mouse
+        will not appreciate your neutrality.
+      </p>
+      <p class="rb-src">– Desmond Tutu</p>
+    </blockquote>
   </section>
-
-
-
+  <section class="slide side" id="practice">
+    <h2>In Practice</h2>
+    <h3>By default, the Web must be:</h3>
+    <img class="side cover" width="400" height="640"
+      src="./tron.png"
+      alt="Tron-style graphic — I Fight For The Users!" />
+    <ul>
+      <li>safe,</li>
+      <li>private,</li>
+      <li>international,</li>
+      <li>accessible,</li>
+      <li>fast, and</li>
+      <li>capture-resistant.</li>
+    </ul>
+  </section>
+  <section class="slide" id="legitimacy">
+    <h2>Legitimacy</h2>
+  </section>
+  <section class="slide" id="decentralisation">
+    <h2>Decentralisation</h2>
+  </section>
+  <section class="slide" id="conclusion">
+    <h2>As AC Rep</h2>
+  </section>
 
 
 
