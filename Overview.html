@@ -10,6 +10,27 @@
   <!-- To use the Shower framework, remove b6plus above and add these two: -->
   <!--   <script src="shower.js"></script>         -->
   <!--   <script src="iframe-fixup.js"></script>   -->
+  <style>
+    .slide blockquote {
+      font-size: 1.2rem;
+      font-family: serif;
+      font-style: italic;
+      padding-left: 1rem;
+      margin-top: 2rem;
+    }
+    .slide blockquote::before {
+      content: "❝";
+      font-size: 4rem;
+      opacity: 0.2;
+      position: absolute;
+      line-height: 1;
+      margin: -1rem 0 0 -2.5rem;
+    }
+    .slide blockquote > p.rb-src {
+      margin-top: -0.6em;
+      text-align: right;
+    }
+  </style>
  </head>
  <body class="shower fade-in">
 
@@ -27,6 +48,22 @@
    <h1>The Web<br/> Is Not An SDK</h1>
    <address>Robin Berjon,<br/> The New York Times</address>
   </section>
+  <section class="slide rb-quote-slide" id="neutrality">
+   <h2>Neutrality</h2>
+   <blockquote>
+     <p>
+       If you are neutral in situations of injustice, you have chosen the side of the oppressor. If
+       an elephant has its foot on the tail of a mouse, and you say that you are neutral, the mouse
+       will not appreciate your neutrality.
+     </p>
+     <p class="rb-src">– Desmond Tutu</p>
+   </blockquote>
+  </section>
+
+
+
+
+
 
   <section class="slide" id="lists">
    <h2>Lists</h2>
